@@ -1,5 +1,5 @@
 # Intro To Datastructures
-## Trees
+## Binary Trees
 
 * Recursive Datastructures
   * A look back at linked lists

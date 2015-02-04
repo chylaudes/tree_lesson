@@ -8,8 +8,7 @@ function BinTree(value){
 BinTree.prototype.max = function(){
 
 }
-try{
-  module.exports = BinTree;
-} catch(e){
 
+if (typeof module !== "undefined") {
+  module.exports = BinTree;
 }
