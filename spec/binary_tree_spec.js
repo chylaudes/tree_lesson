@@ -40,7 +40,7 @@ describe("BinTree", function(){
       expect(proto.hasOwnProperty("search")).toBe(true);
     });
 
-    it("#hieght", function(){
+    it("#height", function(){
       expect(proto.hasOwnProperty("height")).toBe(true);
     });
 
