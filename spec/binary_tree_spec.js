@@ -173,11 +173,11 @@ describe("BinTree", function(){
     it("should return 0 when left and right are null", function(){
       expect(binTree.height()).toBe(0);
     });
-    it("should return a sorted Array", function(){
+    it("should return height of tree", function(){
       binTree.insert(3)
         .insert(1).insert(2).insert(6)
         .insert(7).insert(8).insert(9);
-      expect(binTree.height()).toEqual(2);
+      expect(binTree.height()).toEqual(4);
     });
 
   });
